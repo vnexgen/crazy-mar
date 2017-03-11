@@ -1,0 +1,70 @@
+@mixin font-size($size) {
+  font-size: $size;
+}
+
+@mixin position($position, $top: null, $right: null, $bottom: null, $left: null) {
+  position: $position;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+}
+
+@mixin size($width) {
+      width: $width;
+     
+}
+
+/*
+@mixin size($width, $height: $width) {
+  width: $width;
+  height: $height;
+}*/
+
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@mixin border-all($width, $style, $color) {
+    border-width: $width;
+    border-style: $style;
+    border-color: $color;
+}
+
+
+@mixin margin-all($top, $right, $bottom, $left) {
+    margin-top: $top;
+    margin-right: $right;
+    margin-bottom: $bottom;
+    margin-left: $left;
+}
+
+@mixin padding-all($top, $right, $bottom, $left) {
+    padding-top: $top;
+    padding-right: $right;
+    padding-bottom: $bottom;
+    padding-left: $left;
+}
+
+
+@mixin transition($transition) {
+  -webkit-transition: $transition;
+     -moz-transition: $transition;
+      -ms-transition: $transition;
+          transition: $transition;
+}
+
+@mixin font-size($sizeValue) {
+  font-size: ($sizeValue) + px;
+}
+
+@mixin height($height) {
+      height: ($height) + px;
+}
+@mixin width($width) {
+      width: ($width) + px;
+}

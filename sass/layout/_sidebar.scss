@@ -1,0 +1,18 @@
+//left sidebar
+
+.sidebar {
+    width: $sidebar-width;
+    height: $sidebar-height;
+    background: $light-grey-color;
+    @include position(fixed, $top: 0, $left:0);
+}
+
+
+//right sidebar
+
+.rightsidebar {
+    width: $sidebar-width;
+    height: $sidebar-height;
+    background:$light-grey-color;
+    @include position(fixed, $top: 0, $right:0);
+}

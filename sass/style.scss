@@ -1,0 +1,24 @@
+$font-stack: Roboto, sans-serif;
+$primary-color:#333;
+$primary-background:#fafafa;
+
+
+
+//import all sass directory files
+
+/*@import "base/";
+@import "components/";*/
+@import "helpers/variables";
+@import "helpers/mixins";
+@import "base/typography";
+@import "base/base";
+@import "layout/header";
+@import "layout/sidebar";
+@import "layout/center";
+@import "font-awesome/font-awesome";
+
+
+p {
+  @include font-size(13)
+}
+
