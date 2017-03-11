@@ -6,7 +6,7 @@ $(document).ready(function() {
         pager:false,
         slideMove:5,
         enableDrag:false,
-        slideMargin:20,
+        slideMargin:30,
     });
 });
 
